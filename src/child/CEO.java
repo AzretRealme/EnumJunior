@@ -2,7 +2,6 @@ package child;
 
 
 import parent.Employee;
-import parent.Rank;
 
 public class CEO extends Employee {
     boolean hasCompanyCar;
@@ -11,17 +10,17 @@ public class CEO extends Employee {
 
     }
 
-    public CEO(Rank rank, String name, int age, double salary) {
-        super(rank, name, age, salary);
+    public CEO(String name, int age, double salary) {
+        super( name, age, salary);
     }
 
-    public boolean isHasCompanyCar() {
+  /*  public boolean isHasCompanyCar() {
         return hasCompanyCar;
     }
 
     public void setHasCompanyCar(boolean hasCompanyCar) {
         this.hasCompanyCar = hasCompanyCar;
-    }
+    }*/
 
     public void goPublic(){
         // super.Work();
