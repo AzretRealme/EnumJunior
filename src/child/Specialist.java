@@ -1,7 +1,6 @@
 package child;
 
 import parent.Employee;
-import parent.Rank;
 
 public class Specialist extends Employee {
 
@@ -11,17 +10,17 @@ public class Specialist extends Employee {
 
     }
 
-    public Specialist(Rank rank, String name, int age, double salary) {
-        super(rank, name, age, salary);
+    public Specialist( String name, int age, double salary) {
+        super( name, age, salary);
     }
 
-    public int getLevels() {
+  /*  public int getLevels() {
         return levels;
     }
 
     public void setLevels(int levels) {
         this.levels = levels;
-    }
+    }*/
 
     public void workWithClients(){
         //super.Work();
