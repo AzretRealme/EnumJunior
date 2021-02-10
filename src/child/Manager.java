@@ -1,7 +1,6 @@
 package child;
 
 import parent.Employee;
-import parent.Rank;
 
 public class Manager extends Employee {
 
@@ -15,14 +14,14 @@ public class Manager extends Employee {
         super(rank, name, age, salary);
     }
 
-    public boolean isHasStocks() {
+   /* public boolean isHasStocks() {
         return hasStocks;
     }
 
     public void setHasStocks(boolean hasStocks) {
         this.hasStocks = hasStocks;
     }
-
+*/
     public void writeProcedures(){
         //super.Work();
         System.out.println(" Managers - awesome work.  " + " -WriteProccess.  ---" + getName() + ", ЗАРПЛАТА МЕНЕДЖЕРА: " + getSalary() + ", ВОЗРАСТ: " +
