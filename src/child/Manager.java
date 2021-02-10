@@ -10,8 +10,8 @@ public class Manager extends Employee {
 
     }
 
-    public Manager(Rank rank, String name, int age, double salary) {
-        super(rank, name, age, salary);
+    public Manager( String name, int age, double salary) {
+        super( name, age, salary);
     }
 
    /* public boolean isHasStocks() {
