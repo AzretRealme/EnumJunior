@@ -4,7 +4,7 @@ import parent.*;
 
 public class Developer extends Employee {
 
-       private Rank rank;
+       
        private String name;
        private int age;
        private double salary;
@@ -12,8 +12,8 @@ public class Developer extends Employee {
 public Developer(){
 
 }
-public Developer(Rank rank, String name, int age, double salary){
-    this.rank = rank;
+public Developer( String name, int age, double salary){
+    
     this.name = name;
     this.age = age;
     this.salary = salary;
@@ -35,9 +35,6 @@ public Developer(Rank rank, String name, int age, double salary){
         return salary;
     }
 
-    public Rank getRank() {
-        return rank;
-    }
 
     public void writeCode() {
             // super.Work();
